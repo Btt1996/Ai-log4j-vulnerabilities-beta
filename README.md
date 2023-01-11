@@ -26,24 +26,36 @@ This repository contains a beta version of a project that studies log4j vulnerab
 ## Installation
 
 1. Clone the repository 
-''sh
-git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta''
+```
+sh
+git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta
+```
 2. Install the dependencies
-"pip install -r requirements.txt"
+```
+pip install -r requirements.txt
+```
 ### Runing the script
 1. Compile the java code and run it:
-'javac VulnerabilityScanner.java
-java VulnerabilityScanner <url>'
+```java 
+javac VulnerabilityScanner.java
+java VulnerabilityScanner <url>
+```
 2. Run the main script
-'sh run.sh <url>'
+```
+sh run.sh <url>
+```
 3. The script will produce a report.txt file with the results.
 
 ## Using Docker
 You can use the provided Dockerfile to build a container and run the project inside it.
 1. build the image
-'docker build -t log4j-scan .'
+```
+docker build -t log4j-scan .
+```
 2. Run the container
-'docker run -it --rm log4j-scan <url>'
+```
+docker run -it --rm log4j-scan <url>
+```
 The container will run the scan and generate a report.txt file in the root directory.
 ## Contributing
 This project welcomes contributions and suggestions. For details, see the CONTRIBUTING.md.
