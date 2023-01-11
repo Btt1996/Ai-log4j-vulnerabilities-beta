@@ -27,8 +27,7 @@ This repository contains a beta version of a project that studies log4j vulnerab
 
 1. Clone the repository 
 ```
-sh
-git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta
+sh git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta
 ```
 2. Install the dependencies
 ```
@@ -49,7 +48,7 @@ sh run.sh <url>
 ## Using Docker
 You can use the provided Dockerfile to build a container and run the project inside it.
 1. build the image
-```
+```sh
 docker build -t log4j-scan .
 ```
 2. Run the container
