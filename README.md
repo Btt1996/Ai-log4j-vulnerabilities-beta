@@ -1,5 +1,5 @@
 # Ai-log4j-vulnerabilities-beta
-This repository contains a beta version of a project that studies log4j vulnerabilities and provides a report on the vulnerabilities found. The project uses a combination of automated testing, machine learning, and manual analysis to identify potential vulnerabilities in log4j-based systems. The report contains the likelihood of each vulnerability to be exploited and recommendations on how to fix them. The project is still in beta and has not been fully tested, contributions are welcomed.
+This repository contains a beta version of a project called AL4V (Ai-log4j-vulnerabilities) that studies log4j vulnerabilities and provides a report on the vulnerabilities found. The project uses a combination of automated testing, machine learning, and manual analysis to identify potential vulnerabilities in log4j-based systems. The report contains the likelihood of each vulnerability to be exploited and recommendations on how to fix them. The project is still in beta and has not been fully tested, contributions are welcomed.
 
 
 ## Files
