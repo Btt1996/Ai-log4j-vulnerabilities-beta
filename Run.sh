@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Build the Docker image
-docker build -t log4j-vulnerabilities-beta .
+# Get the website URL as an argument
+url=$1
 
-# Run the Docker container
-docker run -it --rm log4j-vulnerabilities-beta
+# Run the Python script with the website URL as an argument
+python main.py $url
