@@ -4,10 +4,20 @@ This repository contains a beta version of a project that studies log4j vulnerab
 
 ## File Explanation
 
-- **File1: Study_log4j.py** - This script uses automated testing to identify known vulnerabilities in log4j systems and sends them to File2 for further analysis.
-- **File2: VulnerabilityScanner.java** - This script receives the vulnerabilities from File1, performs further analysis, and sends the results to File3 for machine learning.
-- **File3: Machine_learning.py** - This script receives the vulnerabilities from File2, learns from them using machine learning, and saves the learning to an external file.
-- **File4: Generate_Report.py** - This script receives the vulnerabilities from File3, loads the previously trained model, and uses it to generate a report on the vulnerabilities found.
+- **File1: Study_log4j.py** 
+- This script uses automated testing to identify known vulnerabilities in log4j systems and sends them to File2 for further analysis.
+
+
+- **File2: VulnerabilityScanner.java** 
+- This script receives the vulnerabilities from File1, performs further analysis, and sends the results to File3 for machine learning.
+
+
+- **File3: Machine_learning.py** 
+- This script receives the vulnerabilities from File2, learns from them using machine learning, and saves the learning to an external file.
+
+
+- **File4: Generate_Report.py**
+- This script receives the vulnerabilities from File3, loads the previously trained model, and uses it to generate a report on the vulnerabilities found.
 
 ## Getting started
 
@@ -16,8 +26,12 @@ This repository contains a beta version of a project that studies log4j vulnerab
 
 ## Running with Docker
 
-- Build the Docker image by running `docker build -t log4j-vulnerabilities-beta .`
-- Run the Docker container by running `docker run -it --rm Ai-log4j-vulnerabilities-beta`
+- Build the Docker image by running 
+`docker build -t log4j-vulnerabilities-beta .`
+
+- Run the Docker container by running 
+`docker run -it --rm Ai-log4j-vulnerabilities-beta`
+
 - Check the report generated in the output.
 
 ## Dependencies
