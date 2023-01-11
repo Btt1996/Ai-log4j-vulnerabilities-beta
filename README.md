@@ -13,7 +13,7 @@ This repository contains a beta version of a project that studies log4j vulnerab
 8. `run.sh`: This script is responsible for running the `main.py` script and passing the website URL as an argument.
 9. `Dockerfile`: This file contains the instructions for building a container and running the project inside it.
 
-## Usage
+
 
 ### Prerequisites
 
@@ -23,11 +23,11 @@ This repository contains a beta version of a project that studies log4j vulnerab
 - Git
 - Docker (if you want to use the provided Dockerfile)
 
-### Installation
+## Installation
 
 1. Clone the repository 
-```sh
-git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta
+''sh
+git clone https://github.com/Btt1996/Ai-log4j-vulnerabilities-beta''
 2. Install the dependencies
 "pip install -r requirements.txt"
 ### Runing the script
@@ -38,7 +38,7 @@ java VulnerabilityScanner <url>'
 'sh run.sh <url>'
 3. The script will produce a report.txt file with the results.
 
-### Using Docker
+## Using Docker
 You can use the provided Dockerfile to build a container and run the project inside it.
 1. build the image
 'docker build -t log4j-scan .'
